@@ -44,6 +44,7 @@ async function generateGeminiContentWithFallback(
   const attempts = [];
   if (useSearch) {
     attempts.push({ model: "gemini-3.5-flash", search: true });
+    attempts.push({ model: "gemini-3.1-flash-lite", search: true });
   }
   attempts.push({ model: "gemini-3.5-flash", search: false });
   attempts.push({ model: "gemini-3.1-flash-lite", search: false });
