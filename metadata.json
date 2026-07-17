@@ -1,0 +1,8 @@
+{
+  "name": "Remix: PriceCheck AI",
+  "description": "Instantly find the current price of any product or service with this universal price lookup tool.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

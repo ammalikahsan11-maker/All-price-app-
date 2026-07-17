@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer utilities {
+  .gradient-bg {
+    background: radial-gradient(circle at 50% -20%, #e0f2fe 0%, #ffffff 70%);
+  }
+  .dark-gradient-bg {
+    background: radial-gradient(circle at 50% -20%, #0f172a 0%, #020617 70%);
+  }
+}
+
